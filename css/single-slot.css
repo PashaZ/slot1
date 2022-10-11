@@ -3500,10 +3500,6 @@ footer .title {
 	}
 }
 
-@media (max-width: 380px) {
-	.slot-table {}
-}
-
 /* img-------------------------------------- */
 .img-18 {
 	width: 25px;
@@ -3531,8 +3527,10 @@ footer .title {
 
 .fixed {
 	position: fixed;
-	top: -15px;
+	top: 0;
 	z-index: 4;
+	margin-top: 28px;
+
 }
 
 .fixed-to-bottom {
@@ -3550,7 +3548,6 @@ footer .title {
 	background: #FFFFFF;
 	border-radius: 2px;
 	margin-bottom: 8px;
-	margin-top: 28px;
 }
 
 .offer-card-title-block {
@@ -3676,17 +3673,11 @@ footer .title {
 	width: 94px;
 	justify-content: center;
 	margin-left: 1190px;
-	z-index: 20;
-}
-
-@media(max-width:768px) {
-	.lang-section {
-		margin-left: 289px;
-	}
+	z-index: 21;
 }
 
 .is-hidden {
-	opacity: 0;
+	display: none;
 }
 
 .change-arrow {
@@ -3776,6 +3767,15 @@ footer .title {
 }
 
 @media(max-width:768px) {
+
+	.lang-section {
+		margin-left: 260px;
+	}
+
+	.is-hidden {
+		display: none;
+	}
+
 	.bonus-cards__wrapper {
 		width: 76%;
 		margin-top: 20px;
