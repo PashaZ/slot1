@@ -3529,7 +3529,7 @@ footer .title {
 	position: fixed;
 	top: 0;
 	z-index: 4;
-	margin-top: 28px;
+	margin-top: -15px;
 
 }
 
@@ -3537,6 +3537,10 @@ footer .title {
 	position: fixed;
 	bottom: 465px;
 	z-index: 4;
+}
+
+.offer-card:first-child {
+	margin-top: 28px;
 }
 
 .offer-card {
@@ -3548,6 +3552,7 @@ footer .title {
 	background: #FFFFFF;
 	border-radius: 2px;
 	margin-bottom: 8px;
+	margin-top: 8px;
 }
 
 .offer-card-title-block {
@@ -3904,10 +3909,6 @@ footer .title {
 
 	.offer-card:first-child {
 		margin-top: 0;
-	}
-
-	.offer-card {
-		margin-bottom: 20px;
 	}
 
 	.aside tr td:nth-child(even) {
