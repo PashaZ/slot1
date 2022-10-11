@@ -22,6 +22,8 @@ a {
 
 main {
 	background-color: #1D2730;
+
+
 }
 
 section {
@@ -1072,10 +1074,11 @@ aside {
 	}
 
 	.main-title {
-		font-size: 36px;
+		font-size: 22px;
 		text-align: center;
-		line-height: 47px;
+		line-height: 29px;
 		word-break: break-word;
+		margin-bottom: 0;
 	}
 
 	.four-items-row {
@@ -1260,8 +1263,8 @@ aside {
 
 	.cookie-popup .lazy-image {
 		position: absolute;
-		left: 20px;
-		top: 20px;
+		left: 15px;
+		width: 129px;
 	}
 
 	.cookie-popup .cookie-title {
@@ -1948,10 +1951,6 @@ header nav a:hover {
 		height: 20.83px;
 	}
 
-	.burger,
-	#checkbox-burger {
-		display: block;
-	}
 
 	.burger-menu {
 		display: block;
@@ -2036,6 +2035,10 @@ footer::after {
 .footer-navigation li {
 	margin-bottom: 30px;
 	display: inline-block;
+}
+
+.footer-navigation li a img {
+	border: 2px solid transparent;
 }
 
 .footer-navigation li a img:hover {
@@ -2145,7 +2148,7 @@ footer .title {
 		flex-wrap: wrap;
 	}
 
-	.footer-navigation li {
+	/* .footer-navigation li {
 		text-align: center;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -2165,7 +2168,7 @@ footer .title {
 
 	.footer-navigation li a {
 		margin-right: 0;
-	}
+	} */
 
 	li.footer-hide-link {
 		display: none;
@@ -2998,11 +3001,6 @@ footer .title {
 	position: relative;
 }
 
-.aside-hand {
-	position: absolute;
-	margin-left: 105%;
-	margin-top: 20px;
-}
 
 .slot-table-wrap {
 	width: 271px;
@@ -3301,7 +3299,7 @@ footer .title {
 		-ms-flex-align: center;
 		align-items: center;
 		width: 100%;
-		max-width: 317px;
+		width: 239px;
 		margin-bottom: 20px;
 	}
 
@@ -3464,7 +3462,7 @@ footer .title {
 
 @media (max-width: 768px) {
 	.main-block {
-		background-color: #fff;
+		background-color: #2E3841;
 	}
 
 	.main-block .content {
@@ -3492,6 +3490,13 @@ footer .title {
 
 	.content h2:not(.main-title) {
 		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	/* new media-------------------------- */
+	.game-wrap .gray-btn {
+		width: 245px;
+		height: 32px;
 	}
 }
 
@@ -3661,7 +3666,6 @@ footer .title {
 
 .footer-navigation li a img:hover {
 	border: 2px solid #EAD3FD;
-
 }
 
 /* header-flags------------------------- */
@@ -3672,7 +3676,13 @@ footer .title {
 	width: 94px;
 	justify-content: center;
 	margin-left: 1190px;
-	z-index: 1000;
+	z-index: 20;
+}
+
+@media(max-width:768px) {
+	.lang-section {
+		margin-left: 289px;
+	}
 }
 
 .is-hidden {
@@ -3755,4 +3765,154 @@ footer .title {
 
 .header-flags-span {
 	margin-left: 10px;
+}
+
+.aside-table {
+	display: none;
+}
+
+.best-offer {
+	display: none;
+}
+
+@media(max-width:768px) {
+	.bonus-cards__wrapper {
+		width: 76%;
+		margin-top: 20px;
+	}
+
+	.pros-cons__wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.pros-cons-block {
+		margin-top: 20px;
+		height: 215px;
+		width: 327px;
+	}
+
+	.content h4:not([class]),
+	.content h3:not([class]) {
+		text-align: center;
+		font-size: 22px;
+	}
+
+	.content h2:not(.main-title) {
+		width: 330px;
+		margin-right: 0;
+		font-size: 22px;
+		line-height: 29px;
+
+	}
+
+	.faq {
+		margin-top: 30px;
+		font-size: 22px;
+	}
+
+	.faq__question {
+		border-bottom: 0;
+	}
+
+	.faq__question__visible-text {
+		padding: 20px 20px 20px 10px;
+	}
+
+	.faq__question__visible-text h3 {
+		font-size: 18px;
+	}
+
+	.faq-questions__wrapper {
+		margin-bottom: 0;
+	}
+
+	.footer-navigation {
+		justify-content: space-between;
+		border-bottom: 0;
+		margin-bottom: 10px;
+
+	}
+
+	.footer-navigation li {
+		margin-bottom: 20px;
+		margin-right: 40px;
+
+	}
+
+	.footer-navigation li:nth-child(4n+4) {
+		margin-right: 0;
+	}
+
+	.footer-navigation li a img {
+		width: 53px;
+	}
+
+	.footer-bottom {
+		display: none;
+	}
+
+	.footer-disclaimer {
+		margin-bottom: 20px;
+	}
+
+	.img-18 {
+		width: 22px;
+	}
+
+	.img-ssl-casino-min {
+		width: 37px;
+	}
+
+	.img-gamcare {
+		width: 31px;
+	}
+
+	.img-begambleaware {
+		width: 77px;
+	}
+
+	.img-gamblingtherapy {
+		width: 64px;
+	}
+
+	.footer-items__tel {
+		display: none;
+	}
+
+	.content section {
+		margin-bottom: 10px;
+	}
+
+	.main-left {
+		margin-top: -1px;
+	}
+
+	.aside-table {
+		display: block;
+		width: 327px;
+		margin-bottom: 30px;
+	}
+
+	.best-offer {
+		display: flex;
+		flex-direction: column;
+		width: 327px;
+		align-items: center;
+	}
+
+	.offer-card:first-child {
+		margin-top: 0;
+	}
+
+	.offer-card {
+		margin-bottom: 0;
+	}
+
+	.aside tr td:nth-child(even) {
+		padding: 0;
+		padding-right: 10px;
+		width: 40%;
+	}
 }
