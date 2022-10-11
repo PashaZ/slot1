@@ -3758,7 +3758,7 @@ footer .title {
 	margin-left: 10px;
 }
 
-.aside-table {
+.aside-table-mobile {
 	display: none;
 }
 
@@ -3889,7 +3889,7 @@ footer .title {
 		margin-top: -1px;
 	}
 
-	.aside-table {
+	.aside-table-mobile {
 		display: block;
 		width: 327px;
 		margin-bottom: 30px;
@@ -3907,7 +3907,7 @@ footer .title {
 	}
 
 	.offer-card {
-		margin-bottom: 0;
+		margin-bottom: 20px;
 	}
 
 	.aside tr td:nth-child(even) {
