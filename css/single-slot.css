@@ -127,6 +127,11 @@ section {
 	color: #FFFFFF
 }
 
+.align-center {
+
+	text-align: center;
+}
+
 .top-text {
 	font-size: 24px;
 	color: #ffffff;
