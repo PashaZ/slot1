@@ -3538,12 +3538,10 @@ footer .title {
 	top: 0;
 	z-index: 4;
 	margin-top: -15px;
-
 }
 
 .fixed-to-bottom {
-	position: fixed;
-	bottom: 465px;
+	margin-top: 3505px;
 	z-index: 4;
 }
 

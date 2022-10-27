@@ -34,13 +34,15 @@ window.onscroll = () => {
 
 	if ((770 < position) && (position < 4300)) {
 		scrollBlock.classList.add('fixed');
+		scrollBlock.classList.remove('fixed-to-bottom');
+
 	}
 	else if (position < 770) {
 		scrollBlock.classList.remove('fixed');
 		scrollBlock.classList.remove('fixed-to-bottom');
 
 	}
-	else if (position > 4300) {
+	else if (position >= 4300) {
 		scrollBlock.classList.remove('fixed');
 		scrollBlock.classList.add('fixed-to-bottom');
 
