@@ -3354,6 +3354,7 @@ footer .title {
 	.slot-table thead th {
 		padding: 12px;
 	}
+	/* -------------------------- gr */
 	.gr td{
 		padding:5px 5px;
 	}
@@ -3808,16 +3809,18 @@ footer .title {
 		flex-direction: column;
 		align-items: center;
 	}
-
+/* ---------------------------- pros */
 	.pros-cons-block {
 		margin-top: 20px;
-		height: 215px;
+		height: 245px;
 		width: 327px;
 	}
 	.pros-cons-block-gr {
 		height: 245px;
 	}
-
+	.pros-cons-block-nl {
+		height: 330px;
+	}
 
 	.content h4:not([class]),
 	.content h3:not([class]) {
