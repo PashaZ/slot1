@@ -3354,6 +3354,16 @@ footer .title {
 	.slot-table thead th {
 		padding: 12px;
 	}
+	.gr td{
+		padding:5px 5px;
+	}
+	.gr tr td:nth-child(odd) {
+		display: table-cell;
+	}
+	.slot-table-gr {
+	color: #000000;
+	font-size: 10px;	
+	}
 }
 
 
@@ -3790,6 +3800,7 @@ footer .title {
 	.bonus-cards__wrapper {
 		width: 76%;
 		margin-top: 20px;
+		grid-row-gap:0;
 	}
 
 	.pros-cons__wrapper {
@@ -3803,6 +3814,10 @@ footer .title {
 		height: 215px;
 		width: 327px;
 	}
+	.pros-cons-block-gr {
+		height: 245px;
+	}
+
 
 	.content h4:not([class]),
 	.content h3:not([class]) {
