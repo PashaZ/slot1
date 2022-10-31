@@ -3939,10 +3939,11 @@ footer .title {
 	}
 }
 
-a {
+/* Add "class=link-a" for links you need */
+.link-a {
 	color:#EAD3FD;
 }
 
-a:hover {
+.link-a:hover {
 	text-decoration: underline;
 }
