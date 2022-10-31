@@ -3923,3 +3923,11 @@ footer .title {
 		width: 40%;
 	}
 }
+
+.a {
+	color:#EAD3FD;
+}
+
+.a:hover {
+	text-decoration: underline;
+}
